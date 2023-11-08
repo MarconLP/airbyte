@@ -139,7 +139,7 @@ class SourceStripe(AbstractSource):
                     call_limit=20,
                     matchers=[
                         HttpRequestMatcher(url="https://api.stripe.com/v1/files"),
-                        HttpRequestMatcher(url="https://api.stripe.com/v1/file_links")
+                        HttpRequestMatcher(url="https://api.stripe.com/v1/file_links"),
                     ],
                 ),
                 FixedWindowCallRatePolicy(
