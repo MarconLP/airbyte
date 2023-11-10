@@ -86,7 +86,8 @@ AirbyteRecords are required to conform to the [Airbyte type](https://docs.airbyt
 ## Changelog
 
 | Version | Date       | Pull Request                                             | Subject                                                                                                                   |
-| :------ | :--------- | :------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------ |
+|:--------| :--------- | :------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------ |
+| 1.0.13  | 2023-10-30 | [31947](https://github.com/airbytehq/airbyte/pull/31947) | Capture media_product_type column in media and stories stream                                                             |
 | 1.0.12  | 2023-11-07 | [32200](https://github.com/airbytehq/airbyte/pull/32200) | The backoff strategy has been updated to make some errors retriable                                                       |
 | 1.0.11  | 2023-08-03 | [29031](https://github.com/airbytehq/airbyte/pull/29031) | Reverted `advancedAuth` spec changes                                                                                      |
 | 1.0.10  | 2023-08-01 | [28910](https://github.com/airbytehq/airbyte/pull/28910) | Updated `advancedAuth` broken references                                                                                  |
